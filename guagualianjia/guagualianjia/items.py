@@ -11,4 +11,8 @@ import scrapy
 class GuagualianjiaItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    huxing = scrapy.Field()
+    jianzhumianji = scrapy.Field()
+    chanquannianxian = scrapy.Field()
+    fangwuyongtu = scrapy.Field()
+    fangwunianxian = scrapy.Field()
